@@ -1,0 +1,238 @@
+@font-face { font-family: "Poppins"; src: url('./fonts/Montserrat/Montserrat-Regular.ttf'); } 
+
+body{
+    /* font-family: Poppins !important; */
+}
+.main{
+    background-color: #7645D9 !important;
+    padding-top: 0% !important;
+}
+.content{
+    padding-top: 0% !important;
+}
+.golden-text-color{
+    color: #FFB237;
+}
+.header{
+    /* padding: 100px; */
+}
+
+.header-p{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-ticket{
+    max-width: 300px;
+    margin: 0px auto;
+    position: relative !important;
+}
+
+#header-ticket-btn{
+    background-color: #7645D9;
+    color: white;
+    font-weight: 600;
+    width: 80%;
+    height: 40% !important;
+    position: absolute !important;
+    margin: 0px auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;    
+}
+
+.sec2-a{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.1;
+}
+.sec2-b{
+    font-size: 40px; line-height: 1.1;
+}
+.jc-center{
+    justify-content: center;
+}
+.ml-neg-40{
+    margin-left: -40px;
+}
+.mr-neg-30{
+    margin-right: -30px;
+}
+.in-prizes{
+    font-size: 24px;
+    font-weight: 600;
+}
+.bg-purple{
+    background: linear-gradient(rgb(118, 69, 217) 0%, rgb(69, 42, 122) 100%);
+}
+.getTicket-heading{
+    font-size: 40px; font-weight: 600; line-height: 1.1; margin-bottom: 24px; text-align: center; color: rgb(255, 255, 255);
+}
+.secondSecDraw-text{
+    color: rgb(40, 13, 95);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.secondSecCake-text{
+    color: rgb(122, 110, 170);
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 14px;
+    text-align: center;
+    text-align: left;
+}
+.secondSecHeading{
+    color: rgb(40, 13, 95);
+    font-weight: 600;
+    font-size: 20px !important;
+}
+.flex-dc{
+    flex-direction: column;
+}
+.buyTicketBtn{
+    border-radius: 16px;
+    -webkit-box-align: center;
+     align-items: center; border: 1px solid;
+      box-shadow: rgb(14 14 44 / 40%) 0px -1px 0px 0px inset;
+       cursor: pointer;
+        display: inline-flex;
+         font-family: inherit;
+          font-size: 16px;
+           font-weight: 600;
+            -webkit-box-pack: center;
+             justify-content: center;
+              letter-spacing: 0.03em; 
+              line-height: 1; opacity: 1;
+               outline: 0px; 
+               transition: background-color 0.2s ease 0s opacity 0.2s ease 0s;
+                height: 48px; 
+                padding: 0px 24px;
+     background-color: rgb(31 199 212); color: white; max-width: 280px;
+}
+.connecetWalletImg{
+    width: 120px;
+}
+.vertical-center{
+    display: flex;
+    align-items: center;
+}
+.w-mc{
+    width: max-content !important;
+}
+.yourHistoryBtn{
+    box-shadow: none !important;
+     -webkit-box-align: center;
+     align-items: center;
+     border: 0px;border-radius: 16px;
+     box-shadow: rgb(14 14 44 / 40%) 0px -1px 0px 0px inset;
+     cursor: pointer;
+     display: inline-flex;
+     font-family: inherit;
+     font-size: 16px;
+     font-weight: 600;
+     -webkit-box-pack: center;
+     justify-content: center;
+     letter-spacing: 0.03em;
+     line-height: 1;
+     opacity: 1;
+     outline: 0px;
+     transition: background-color 0.2s ease 0s, opacity 0.2s ease 0s;
+     height: 32px;
+     padding: 0px 16px;
+     background-color: rgb(238, 234, 244);
+     color: rgb(122, 110, 170);
+}
+.yourHistoryBtn:active,.yourHistoryBtn:focus{
+     background-color:  rgb(122, 110, 170);
+     color: rgb(238, 234, 244);
+}
+.allHistoryBtn{
+    box-shadow: none !important;
+     -webkit-box-align: center;
+     align-items: center;
+     border: 0px;border-radius: 16px;
+     box-shadow: rgb(14 14 44 / 40%) 0px -1px 0px 0px inset;
+     cursor: pointer;display: inline-flex;
+     font-family: inherit;
+     font-size: 16px;
+     font-weight: 600;
+     -webkit-box-pack: center;
+     justify-content: center;
+     letter-spacing: 0.03em;
+     line-height: 1;
+     opacity: 1;
+     outline: 0px;
+     transition: background-color 0.2s ease 0s, opacity 0.2s ease 0s;
+     height: 32px;
+     padding: 0px 16px;
+     background-color:  rgb(122, 110, 170);
+     color: rgb(238, 234, 244);
+}
+.allHistoryBtn:active,.allHistoryBtn:focus{
+     background-color:   rgb(238, 234, 244);
+     color: rgb(122, 110, 170);
+}
+.finishRoundDiv{
+    display: flex;
+    justify-content: center;
+    padding: 50px; width: 100%;
+    background: linear-gradient(rgb(203, 215, 239) 0%, rgb(154, 159, 208) 100%);
+}
+.ballSize{
+    width: 70px;
+}
+.ballNumber{
+    position: absolute;
+    top: 10px;
+    left: 23px;
+    font-size: 32px !important;
+}
+@media(max-width:590px){
+    .d-none-590{
+        display: none;
+    }
+    .w-90-590{
+        width: 90% !important;
+    }
+    .connecetWalletImg{
+        width: 65px;
+    }
+}
+@media(max-width:450px){
+    .px-0-450{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+
+    }
+  
+}
+@media(max-width:767px){
+    .text-center-md{
+        text-align: center;
+    }
+    .jc-center-md{
+        justify-content: center;
+    }
+    .m-auto-md{
+        margin: auto;
+    }
+    .finishRoundDiv{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .ballSize{
+        width: 36px;
+    }
+    .ballNumber{
+        position: absolute;
+        top: 7px;
+        left: 12px;
+        font-size: 16px !important;
+    }
+}
